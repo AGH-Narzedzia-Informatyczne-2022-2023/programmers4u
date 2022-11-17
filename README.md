@@ -1,5 +1,5 @@
 # programmers4u
-Dinosaur game with gesture controls. Sounds crazy, right?
+
 
 ## Gra - Dinosaur adventure game + sterowanie za pomocą gestów, położenia dłoni itp. 
 
@@ -11,7 +11,7 @@ OpenCV <br>
 [Rock paper scisors](https://www.computervision.zone/courses/rock-paper-scissor/)<br>
 [Tutorial py root](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)<br>
 
-jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) system rozpoznawania gestów dłoni, mimikę twarzy, ruchy kończyn - do ich rozpoznawania program korzysta z kamerki użytkownika.
+jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) system rozpoznawania gestów dłoni, mimikę twarzy, ruchy kończyn - do ich rozpoznawania program korzysta z kamerki użytkownika. Wykorzystamy ten system do wykrywania gestów dłoni użytkownika, dzięki którym będzie on mógł sterować dinosaurem.
 
 
  <picture align="center">
@@ -23,6 +23,7 @@ jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) sy
  <picture align="center">
   <img src="pictures/rece.png" width="700" title="rece">
 </picture>
+
 
 ### Narzędzia informatyczne - Projekt grupy Programmers4u ###
 Kim jesteśmy ? Jesteśmy młodymi i ambitnymi studentami pierwszego roku na kierunku informatyka i systemy inteligentne. Połączyła nas wspólna pasja jaką jest programowanie i sztuczna inteligencja. Owe pasje chcemy przekuć w ciekawe projekty takie jak ten, którym będzie gra Trex sterowana gestami rąk.
