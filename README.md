@@ -13,3 +13,13 @@ jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) sy
  <picture align="center">
   <img src="pictures/zdj.jpeg" width="350" title="frog">
 </picture>
+
+
+
+| Członkowie zespołu        | 
+| -------------             |
+| J.Majchrowicz             | 
+| M.Porębski                |                     
+| J.Biernat                 | 
+| A.Marczyk                 |
+| K.Baumgart                |
