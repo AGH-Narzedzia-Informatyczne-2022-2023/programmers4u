@@ -10,3 +10,6 @@ OpenCV <br>
 jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) system rozpoznawania gestów dłoni, mimikę twarzy, ruchy kończyn - do ich rozpoznawania program korzysta z kamerki użytkownika.
 
 
+ <picture align="center">
+  <img src="pictures\zdj.jpg" width="350" title="frog">
+</picture>
