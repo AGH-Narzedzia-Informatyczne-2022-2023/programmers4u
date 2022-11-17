@@ -4,6 +4,10 @@ Dinosaur game with gesture controls. Sounds crazy, right?
 ## Gra - Dinosaur adventure game + sterowanie za pomocą gestów, położenia dłoni itp. 
 
 OpenCV <br>
+ <picture align="center">
+  <img src="pictures/dinosaur.png" width="350" title="frog">
+</picture>
+
 [Rock paper scisors](https://www.computervision.zone/courses/rock-paper-scissor/)<br>
 [Tutorial py root](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)<br>
 
