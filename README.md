@@ -18,6 +18,7 @@ jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) sy
   <img src="pictures/zdj.jpeg" width="350" title="frog">
 </picture>
 
+**Planujemy stworzyć grę o zasadach podobnych do zasad “Dinosaur adventure game”, ale z wykorzystaniem detekcji gestów dłoni do sterowania naszym dinozaurem.**
 
 
 | Członkowie zespołu        | 
