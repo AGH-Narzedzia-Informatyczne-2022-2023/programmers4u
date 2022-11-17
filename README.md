@@ -11,5 +11,5 @@ jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) sy
 
 
  <picture align="center">
-  <img src="pictures/zdj.jpg" width="350" title="frog">
+  <img src="pictures/zdj.jpeg" width="350" title="frog">
 </picture>
