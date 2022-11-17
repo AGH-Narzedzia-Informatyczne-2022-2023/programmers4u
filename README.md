@@ -23,3 +23,4 @@ jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) sy
 | J.Biernat                 | 
 | A.Marczyk                 |
 | K.Baumgart                |
+| P.Bieszczad               |
