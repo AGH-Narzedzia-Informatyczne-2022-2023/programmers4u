@@ -20,6 +20,10 @@ jest to oparty na sztucznej inteligencji (ML) (Baza danych - zdjęcia dłoni) sy
 
 **Planujemy stworzyć grę o zasadach podobnych do zasad “Dinosaur adventure game”, ale z wykorzystaniem detekcji gestów dłoni do sterowania naszym dinozaurem.**
 
+ <picture align="center">
+  <img src="pictures/rece.png" width="700" title="rece">
+</picture>
+
 ### Narzędzia informatyczne - Projekt grupy Programmers4u ###
 Kim jesteśmy ? Jesteśmy młodymi i ambitnymi studentami pierwszego roku na kierunku informatyka i systemy inteligentne. Połączyła nas wspólna pasja jaką jest programowanie i sztuczna inteligencja. Owe pasje chcemy przekuć w ciekawe projekty takie jak ten, którym będzie gra Trex sterowana gestami rąk.
 ### Główne zalety naszego projektu:
@@ -41,3 +45,10 @@ Kim jesteśmy ? Jesteśmy młodymi i ambitnymi studentami pierwszego roku na kie
 | A.Marczyk                 |
 | K.Baumgart                |
 | P.Bieszczad               |
+
+***Dinosaur Adventure jest moją ulubioną grą dzieciństwa,
+a gdyby można było sterować gestami dłoni-
+to dopiero byłby kosmos!***
+>Albert Einstein
+
+  ![albercik](https://user-images.githubusercontent.com/115954152/202535553-cec5ce93-76a0-4314-890d-09fe8472f272.png)
