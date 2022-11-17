@@ -5,7 +5,7 @@ Dinosaur game with gesture controls. Sounds crazy, right?
 
 OpenCV <br>
  <picture align="center">
-  <img src="pictures/dinosaur.png" width="350" title="frog">
+  <img src="pictures/dinosaur.png" width="700" title="frog">
 </picture>
 
 [Rock paper scisors](https://www.computervision.zone/courses/rock-paper-scissor/)<br>
