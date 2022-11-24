@@ -1,0 +1,6 @@
+{
+	"extends": [
+		"wikimedia/qunit",
+		"../../modules/.eslintrc.json"
+	]
+}
