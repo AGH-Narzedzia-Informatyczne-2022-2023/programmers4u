@@ -3,6 +3,10 @@ import pygame.image
 import sys
 
 
+
+#I really hope that no idiot will try to create some useless class in this file
+
+
 class Camera:
     # __init__() fires when we create a Camera object instance
     # camera_widnowed() is testing function which opens a window and shows camera input there
