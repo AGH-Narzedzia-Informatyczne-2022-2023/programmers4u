@@ -4,6 +4,9 @@ from settings import *
 class IhaveNoIdea:
     #Ihave no idea 
     #sense of life is 42
+
+    #lalalalalaalal
+
 class Game:
     def __init__(self):
         # general setup
