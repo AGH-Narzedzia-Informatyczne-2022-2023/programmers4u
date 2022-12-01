@@ -1,4 +1,4 @@
-import pygame, sys
+import pygamen, sys
 from settings import *
 
 
