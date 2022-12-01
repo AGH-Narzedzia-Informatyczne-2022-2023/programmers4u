@@ -3,6 +3,12 @@ import pygame.image
 import sys
 
 
+class UselessClass:
+    #this is useless class that some idiot tries to create in this file
+    def __init__(self):
+        print("its so useless")
+    self.uselessvariable = "Useless"
+
 class Camera:
     # __init__() fires when we create a Camera object instance
     # camera_widnowed() is testing function which opens a window and shows camera input there
