@@ -1,7 +1,8 @@
 import pygame, sys
 from settings import *
 
-
+class IhaveNoIdea:
+    #lalalalalaalal
 class Game:
     def __init__(self):
         # general setup
