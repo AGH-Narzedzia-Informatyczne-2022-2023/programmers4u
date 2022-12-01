@@ -1,0 +1,60 @@
+import time
+import pygame
+import sys
+class Button:
+    def __init__(self,x_cord,y_cord,sciezka,sciezka_clicked):
+        self.x_cord = x_cord_postaci
+        self.y_cord = y_cord_postaci
+        self.button_image = pygame.image.load(f"{sciezka}")
+        self.button_image_clicked = pygame.image.load(f"{sciezka_clicked}")
+        self.hitbox = pygame.Rect(self.x_cord,self.y_cord, self.button_image.get_width(),self.button_image.get_height())
+    
+    def tick(self):
+        if self.hitbox.collidepoint(pygame.mouse.get_pos()):
+            if pygame.mouse.get_pressed()[0]:
+                return True
+        pass
+    def draw(self, window):
+        if self.hitbox.collidepoint(pygame.mouse.get_pos()):
+            window.blit(self.button_image_clicked, (self.x_cord,self.y_cord))
+        else:
+            window.blit(self.button_image, (self.x_cord,self.y_cord))
+         
+class Player:
+    punkty = 0
+    def __init__(self,x_cord,y_cord,sciezka1,sciezka2,window):
+        self.check = True
+        self.punkty = 0
+        self.sciezka1 = sciezka1
+        self.sciezka2 = sciezka2
+        self.window = window
+        self.x_cord = x_cord
+        self.y_cord = y_cord
+        self.player1 = pygame.image.load(f"{self.sciezka1}")
+        self.player1 = pygame.transform.scale(self.player1, (225,200))
+        self.player2 = pygame.image.load(f"{self.sciezka2}")
+        self.player2 = pygame.transform.scale(self.player2, (225,200))
+        self.hitbox = pygame.Rect(self.x_cord,self.y_cord, self.player1.get_width(),self.player1.get_height())
+        self.window.blit(self.player1, (self.x_cord,self.y_cord))
+
+    def roll(self):
+        if pygame.mouse.get_pos()[1]>330:
+            #self.window.blit(self.player1, (self.x_cord,self.y_cord))
+            if self.check == 0:
+                self.punkty += 1
+                self.check = 1
+            pass
+        elif pygame.mouse.get_pos()[1]<30:
+            #self.window.blit(self.player2, (self.x_cord,self.y_cord))
+            if self.check == 1:
+                self.punkty += 1
+                self.check = 0
+        if self.check:
+            self.window.blit(self.player1, (self.x_cord,self.y_cord))
+        else:
+            self.window.blit(self.player2, (self.x_cord,self.y_cord))
+        pass
+    def wait(self):
+        if self.check == 1:
+            self.window.blit(self.player1, (self.x_cord,self.y_cord))
+        pass
