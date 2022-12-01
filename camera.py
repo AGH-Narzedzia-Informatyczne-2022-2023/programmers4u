@@ -2,6 +2,9 @@ import pygame.camera
 import pygame.image
 import sys
 
+class hope:
+    #i hope this idiot mateuss2 dies
+
 
 class Camera:
     # __init__() fires when we create a Camera object instance
