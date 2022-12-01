@@ -3,8 +3,8 @@ import pygame
 import sys
 class Button:
     def __init__(self,x_cord,y_cord,sciezka,sciezka_clicked):
-        self.x_cord = x_cord_postaci
-        self.y_cord = y_cord_postaci
+        self.x_cord = x_cord
+        self.y_cord = y_cord
         self.button_image = pygame.image.load(f"{sciezka}")
         self.button_image_clicked = pygame.image.load(f"{sciezka_clicked}")
         self.hitbox = pygame.Rect(self.x_cord,self.y_cord, self.button_image.get_width(),self.button_image.get_height())
