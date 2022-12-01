@@ -5,6 +5,9 @@ import sys
 
 
 #I really hope that no idiot will try to create some useless class in this file
+class hope:
+    def __init__(self):
+        print("im so hopeful")
 
 
 class Camera:
