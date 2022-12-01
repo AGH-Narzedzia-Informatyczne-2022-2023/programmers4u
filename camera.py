@@ -4,6 +4,7 @@ import sys
 
 class hope:
     #i hope i live
+    #i hope this idiot mateuss2 dies
 
 
 class Camera:
