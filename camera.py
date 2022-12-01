@@ -3,11 +3,21 @@ import pygame.image
 import sys
 
 
+
 class UselessClass:
     #this is useless class that some idiot tries to create in this file
     def __init__(self):
         print("its so useless")
     self.uselessvariable = "Useless"
+
+
+#I really hope that no idiot will try to create some useless class in this file
+class hope:
+    def __init__(self):
+        print("im so hopeful")
+#those both classes are useless
+
+
 
 class Camera:
     # __init__() fires when we create a Camera object instance
